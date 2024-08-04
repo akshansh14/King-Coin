@@ -1,0 +1,326 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>kingcoin</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body  style="background-color: #0D0C11;">
+
+
+    <!-- Navbar -->
+   
+<nav class="bg-[#0D0C11] border-gray-200 dark:bg-gray-900 bg-opacity-80 z-10 sticky top-0">
+  <div class="max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center">
+        <img src="./public/logo.png" class="h-9 mr-3" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white -ml-3 dark:text-white">kingcoin</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto transition duration-300 ease-in-out" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li class="py-3">
+          <a href="#faq" class="block py-2 pl-3 pr-4 font-sans hover:text-yellow-300 text-white rounded md:bg-transparent -700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">FAQ</a>
+        </li>
+        <li class="py-3">
+          <a href="#whitepaper" class="block py-2 pl-3 pr-4 font-sans text-white  hover:text-yellow-300 md:border-0  md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Whitepaper</a>
+        </li>
+        <li class="py-3">
+          <a href="#" class="block py-2 pl-3 pr-4 font-sans text-white  hover:text-yellow-300 md:border-0  md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+        </li>
+        <div class="md:flex-none flex ">
+          <li class="border md:mx-0 mx-2 border-gray-400 rounded-2xl md:py-3 md:px-3 py-1 px-2">
+            <a href="#" class="block py-1 pl-3 pr-4 md:text-lg text-sm  text-white font-sans rounded md:border-0  md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Become <span>a Merchant</span></a>
+          </li>
+          <li class="border  mx-2 border-gray-400 bg-[#e0ff05] md:py-3 md:px-4 rounded-2xl py-1 px-2 ">
+            <a href="#" class="block py-2 pl-3 pr-4 md:text-lg text-sm rounded font-sans md:border-0  md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent text-black">Launch App</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Header -->
+
+
+<section class="bg-[#0D0C11]  relative mb-20 md:mb-40 ">
+  <img src="./public/poster.png" alt="poster" class="hidden md:block z-9 mx-auto h-4/5 w-4/5 object-cover text-center" />
+  <img src="./public/poster2.png" alt="poster" class=" z-9 md:hidden mx-auto text-center" />
+  <div class="px-4 mx-auto max-w-screen-xl text-center py-2 lg:py-6 lg:-my-20 md:-my-10">
+      <h1 class="mb-4 text-4xl font-bold tracking-tight leading-none font-sans text-white md:text-[40px] lg:text-[52px]">Decentralized P2P <span><br/> exchange </span> </h1>
+      <p class="mb-8 text-lg font-sans text-[#a5a5a5] lg:text-xl sm:px-16 lg:px-48">Fast,trustless,self-custodial trades with ridiculously low fees</p>
+      <div class="-my-1">
+          <a href="#" class="inline-flex justify-center items-center py-4 rounded-l-2xl rounded-r-2xl px-5 text-base font-medium text-center text-black rounded-lg bg-[#e0ff05] hover:bg-[#fffb05f3] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+              Launch app
+              <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </a>
+      </div>
+  </div>
+</section>
+
+<!-- wallets Section -->
+<section class="bg-[#131218] p-2 2xl:mx-60 mx-10 max-w-full  mt-20  border border-[#313131] rounded-[40px] dark:bg-gray-900"  data-aos="fade-up"  data-aos-easing="ease-in-out"  >
+  <div class="grid max-w-screen-3xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 sm:grid-cols-12">
+      
+    <div class="mr-auto place-self-start px-3 lg:pt-7 sm:col-span-6 hidden sm:block">
+          <h1 class="w-full mb-4 lg:pl-10 pl-4 text-xl lg:text-4xl font-bold font-sans tracking-tight text-white leading-none md:text-2xl xl:text-4xl dark:text-white">Start P2P trading <span><br/>in seconds</span></h1>
+          <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#a5a5a5] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">Just connect an existing flat nd crypto wallet to begin.The perfect combination of convenience and delf-custody</p>
+      </div>
+      
+      <div class=" md:mt-0 sm:col-span-6 rounded-lg flex flex-wrap">
+      
+        
+
+        <img src="./public/wallets.png" alt="mockup" class="w-full  object-cover rounded-lg">
+      
+      </div>  
+
+      <div class="mr-auto place-self-start px-3 lg:pt-7 sm:col-span-6 sm:hidden mt-5">
+          <h1 class="w-full mb-4 lg:pl-10 pl-4 text-2xl font-bold font-sans tracking-tight text-white leading-none  dark:text-white">Start P2P trading <span><br/>in seconds</span></h1>
+          <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#a5a5a5] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">Just connect an existing flat nd crypto wallet to begin.The perfect combination of convenience and delf-custody</p>
+      </div>
+  </div>
+</section>
+
+<!-- disc Section -->
+<section class="bg-[#131218] p-2 2xl:mx-60 mx-10 max-w-full mb-5 mt-10  border border-[#313131] rounded-[40px] dark:bg-gray-900"  data-aos="fade-up" data-aos-easing="ease-in-out">
+  <div class="grid max-w-screen-3xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 sm:grid-cols-12">
+      
+    <div class="mr-auto place-self-start px-3 lg:pt-7 sm:col-span-6 hidden sm:block">
+          <h1 class="w-full mb-4 lg:pl-10 pl-4 text-xl lg:text-2xl font-bold font-sans tracking-tight text-white leading-none md:text-2xl xl:text-4xl dark:text-white">Instant, trustless trades <span><br/>in seconds</span></h1>
+          <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#a5a5a5] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">Trades are fully secured using smart contracts and Chainlink AnyAPI.Transaction are automatically verified and settled! No manual release of funds needed.</p>
+      </div>
+      
+      <div class=" md:mt-0 sm:col-span-6 rounded-lg flex flex-wrap">
+        <img src="./public/desc.png" alt="mockup" class="w-full  object-cover rounded-lg">
+      </div>  
+      
+      <div class="mr-auto place-self-start px-3 lg:pt-7 sm:col-span-6 sm:hidden mt-5">
+        <h1 class="w-full mb-4 lg:pl-10 pl-4 text-2xl font-bold font-sans tracking-tight text-white leading-none  dark:text-white">Instant, trustless trades <span><br/>in seconds</span></h1>
+        <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#a5a5a5] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">Trades are fully secured using smart contracts and Chainlink AnyAPI.Transaction are automatically verified and settled! No manual release of funds needed.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- disc Section 2 -->
+  <section class="bg-[#0D0C11] p-2 2xl:mx-60 mx-10 max-w-full mb-5 mt-10  border border-[#131218] rounded-[40px] dark:bg-gray-900" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="200" >
+    <div class="grid max-w-screen-3xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 sm:grid-cols-12 bg-[#131218]">
+     
+      <div class=" md:mt-0 sm:col-span-6 sm:mx-3 mx-1 py-10 rounded-3xl flex flex-wrap  bg-gradient-to-r from-orange-500 from-10% via-yellow-600 via-40% to-yellow-400 to-90%" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="w-full mb-4 lg:pl-10 pl-4 text-3xl font-bold font-sans tracking-tight text-white leading-none  dark:text-white">Transaction fees <span><br/>10x lower</span></h1>
+        <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#ece6e6] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">than the industry aveage</p>
+        <h1 class="w-full mb-4 lg:pl-10 pl-4 text-5xl font-bold font-sans tracking-tight text-white leading-none  dark:text-white">0.35%</span></h1>
+        <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#ece6e6] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">for on/offramipng</p>
+      </div>  
+      
+      <div class=" sm:mt-0 mt-5 sm:col-span-6 mx-3  rounded-3xl py-10 flex flex-wrap bg-gradient-to-r from-black to-slate-800" data-aos="fade-up" data-aos-easing="ease-in-out">
+        <h1 class="w-full mb-4 lg:pl-10 pl-4 px-3 text-2xl md:text-3xl  font-bold font-sans tracking-tight text-white leading-none  dark:text-white">Stay fully self-custodial with your wallets and funds.</h1>
+      </div>  
+    </div>
+  </section>
+  
+  <!-- disc section 3 -->
+  <section id="whitepaper" class="bg-[#131218] p-2 2xl:mx-60 mx-10 max-w-full mb-5 mt-10  border border-[#313131] rounded-[40px] dark:bg-gray-900"  data-aos="fade-up" data-aos-easing="ease-in-out">
+    <div class="grid max-w-screen-3xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 sm:grid-cols-10">
+      
+      <div class="mx-auto text-center py-auto place-content-center px-1 sm:col-span-2 my-auto">
+        <h1 class="w-full mb-4 lg:pl-3 pl-4 text-lg font-bold font-sans tracking-tight text-[#928f8f] leading-none  dark:text-white">Our partners</h1>
+      </div>
+      <div class=" sm:mt-0 sm:col-span-2 mx-2 flex flex-wrap">
+        <img src="https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/647dea56c44c3fc748cb83e0_Chainlink%20Logo%20Blue%201.svg" alt="mockup" class="w-full  object-scale-down ">
+      </div>  
+      <div class=" sm:mt-0 sm:col-span-2 mx-2 flex flex-wrap">
+        <img src="https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/647dea77554df71a26fb42b7_meson_h_black%201.svg" alt="mockup" class="w-full  object-scale-down ">
+      </div>  
+      <div class=" sm:mt-0 sm:col-span-2 mx-2 flex flex-wrap">
+        <img src="https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/647dea67b777092b85e38b1b_polybase%201.svg" alt="mockup" class="w-full  object-scale-down ">
+      </div>  
+      <div class=" sm:mt-0 sm:col-span-2 mx-2 flex flex-wrap">
+        <img src="https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/64900cd8f8719a50eb45f4bb_Group%20321.svg" alt="mockup" class="w-full  object-scale-down ">
+      </div>  
+    </div>
+  </section>
+  
+  <!-- second last Section -->
+  <section class="bg-[#131218] p-2 2xl:mx-60 mx-10 max-w-full mb-5 mt-10  border border-[#313131] rounded-[40px] dark:bg-gray-900"  data-aos="fade-up" data-aos-easing="ease-in-out">
+    <div class="grid max-w-screen-3xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 sm:grid-cols-12">
+        
+      <div class="mr-auto place-self-start px-3 lg:pt-7 sm:col-span-6 hidden sm:block">
+            <h1 class="w-full mb-4 lg:pl-10 pl-4 text-xl lg:text-2xl font-bold font-sans tracking-tight text-white leading-none md:text-2xl xl:text-4xl dark:text-white">Become a P2P Merchant on <span><br/>Offramp.xyz</span></h1>
+            <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#a5a5a5] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">Turbochage your revenue as a P2P merchant with our simple onboarding process, and automated transaction reconciliation.Earn on arbitrage spreads and commissions!</p>
+            <div class="font-sans font-semibold border border-gray-500 rounded-l-2xl rounded-r-2xl text-gray-200 px-4 py-3 ml-8 w-fit ">
+              Become a merchant
+            </div>
+        </div>
+        
+        <div class=" md:mt-0 sm:col-span-6 rounded-lg flex flex-wrap">
+          <img src="https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/647487d76fc6bf5f6f8e6c98_Mask%20group.png" alt="mockup" class="w-full  object-cover rounded-lg">
+        </div>  
+        
+        <div class="mr-auto place-self-start px-3 lg:pt-7 sm:col-span-6 sm:hidden mt-5">
+          <h1 class="w-full mb-4 lg:pl-10 pl-4 text-2xl font-bold font-sans tracking-tight text-white leading-none  dark:text-white">Instant, trustless trades <span><br/>in seconds</span></h1>
+          <p class="mb-6 font-semibold lg:pl-10 pl-4  text-[#a5a5a5] lg:mb-8 md:text-lg font-sans  lg:text-xl dark:text-gray-400">Trades are fully secured using smart contracts and Chainlink AnyAPI.Transaction are automatically verified and settled! No manual release of funds needed.</p>
+          <div class="font-sans font-semibold border border-gray-500 rounded-l-2xl rounded-r-2xl text-gray-200 px-4 py-3 ml-2 w-fit ">
+            Become a merchant
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+    <!-- question answers -->
+    <section id="faq" class="bg-[#131218] p-2 2xl:mx-60 mx-10 max-w-full  mt-20  border border-[#313131] rounded-[40px] dark:bg-gray-900"  data-aos="fade-up"  data-aos-easing="ease-in-out"  >
+      <div class="grid max-w-screen-3xl px-4 py-2 mx-auto lg:gap-8 xl:gap-0 lg:py-4 md:grid-cols-12">
+          
+        <div class="mx-auto md:mr-auto md:place-self-start text-center px-3 lg:pt-7 md:col-span-6 hidden sm:block">
+              <h1 class="w-full mb-4 lg:pl-10 pl-4 text-xl lg:text-2xl font-bold font-sans tracking-tight text-white leading-none md:text-2xl xl:text-4xl dark:text-white">Frequently Asked <span><br/>Questions</span></h1>
+              
+          </div>
+          
+          <div class=" md:mt-0 md:col-span-6 rounded-lg flex flex-wrap">
+            
+<!-- Accordion  -->
+            
+
+<div id="accordion-flush" class="mt-4 w-full" data-accordion="collapse" data-active-classes="bg-[#131218] dark:bg-gray-900 text-gray-100 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+  
+  <div class="border border-gray-400 px-3 pt-1 rounded-l-3xl rounded-r-3xl mb-7" >
+    <h2 id="accordion-flush-heading-1">
+      <button type="button" class="flex items-center justify-between w-full py-1 font-medium text-left text-gray-500  border-gray-00 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="false" aria-controls="accordion-flush-body-1">
+        <span>Do I need a Wise(TransferWise) account?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-4 my-3 h-6 w-6 transition-all duration-200 peer-checked:rotate-180">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1"  
+    >
+      <div class="py-5  border-gray-200 dark:border-gray-700" >
+        <p class="mb-2 text-gray-500 dark:text-gray-400">Yes, but we'll expanding support for Revolut, SEPA transfer and more,soon</p>
+      </div>
+    </div>
+  </div>
+
+<div class="border border-gray-400 px-3 pt-1 rounded-l-3xl rounded-r-3xl mb-7" >
+    <button type="button" class="flex items-center justify-between w-full py-1 font-medium text-left text-gray-500  border-gray-400 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+      <span>Why do I need to provide my read-only API key?</span>
+      <!-- <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg> -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-4 my-3 h-6 w-6 transition-all duration-200 peer-checked:rotate-180">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+    <div class="py-5  border-gray-400 dark:border-gray-700">
+      <p class="mb-2 text-gray-500 dark:text-gray-400">We use Chainlink oracles to read and verify fiat transactions from buyers through API calls to Wise. Once verified, crypto is released from an escrow smart contract to the seller</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="border border-gray-400 px-3 py-1 rounded-l-3xl rounded-r-3xl mb-7" >
+  <button type="button" class="flex items-center justify-between w-full py-1 font-medium text-left text-gray-500  border-gray-400 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+        <span>What chains do you support?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-4 my-3 h-6 w-6 transition-all duration-200 peer-checked:rotate-180">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+      <div class="py-5  border-gray-400 dark:border-gray-700">
+        <p class="mb-2 text-gray-500 dark:text-gray-400">Polygon mainnet for now with,Arbitrum,Optimism and others coming Soon.Ping us on Discord if you like to see support for a specific chain.</p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="border border-gray-400 px-3 py-1 rounded-l-3xl rounded-r-3xl mb-7" >
+    <button type="button" class="flex items-center justify-between w-full py-1 font-medium text-left text-gray-500  border-gray-400 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+          <span>What flat currencies can I trade in?</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-4 my-3 h-6 w-6 transition-all duration-200 peer-checked:rotate-180">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+        <div class="py-5  border-gray-400 dark:border-gray-700">
+          <p class="mb-2 text-gray-500 dark:text-gray-400">All trades are settled in USD and EUR, but if you’re using Wise, you can fund any transaction with other currencies like SGD, KRW, JPY, INR, BRL, CAD, & more!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   </div>  
+
+
+  </div>
+ </div>  
+
+
+
+
+          <div class="mr-auto place-self-start px-3 lg:pt-7 sm:col-span-6 sm:hidden mt-5">
+              <h1 class="w-full mb-4 lg:pl-10 pl-4 text-2xl font-bold font-sans tracking-tight text-white leading-none  dark:text-white">Frequently Asked <span><br/>Questions</span></h1>
+              
+          </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    
+<footer class="bg-black rounded-l-3xl rounded-r-3xl shadow dark:bg-gray-900 m-4">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <a href="#" class="flex items-center mb-4 sm:mb-0">
+              <img src="./public/logo.png" class="h-8 mr-3" alt="Flowbite Logo" />
+              <span class="self-center text-2xl  text-white font-semibold whitespace-nowrap dark:text-white">kingcoin</span>
+          </a>
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-200 sm:mb-0 dark:text-gray-400">
+              <li>
+                  <a href="#" class="mr-4 hover:underline md:mr-6 ">FAQ</a>
+              </li>
+              <li>
+                  <a href="#" class="mr-4 hover:underline md:mr-6">whitepaper</a>
+              </li>
+              <li>
+                  <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">kingcoin™</a>. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+  <!-- AOS -->
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+        AOS.init({
+          offset: 200,
+          duration:400,
+        });
+      </script>
+
+</body>
+</html>
